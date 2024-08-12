@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    div{
+        width: 100px;
+        height: 100px;
+    }
+    .a{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        padding: 20px;
+        position: static;
+        right: 100px;
+    }
+    .b{
+        width: 100px;
+        height: 100px;
+        background-color: blueviolet;
+        position: relative;
+        padding:20px;
+        left: 100px;
+    }
+    .c{
+        position: absolute;
+        border: 3px solid;
+        height: 100px;
+        width: 100px;
+        background-color: brown;
+        border: 2px solid;
+        right: 40%;
+        top: 40%;
+    }
+    </style>
+
+    <head></head>
+    <body>
+    <div>
+        <b class="a">static</b><br>
+    
+        
+    </div>
+    <div>
+        <b class="b">relative</b>
+    </div>
+<div style="border: 1px solid; padding: 100px; height: 400px; position: relative; background-color: black;" >
+    <div>
+        <b class="c">absolute</b>
+    </div>
+</div>
+
+        
+    </body>
+</html>
